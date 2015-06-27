@@ -1,5 +1,7 @@
+@import "bootstrap";
+
 .list-group {
-  .list-group-item {
-    color: red;
+  .list-group-item:first-child {
+    margin-top: 10px;
   }
 }
