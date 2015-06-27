@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-experiments',
     environment: environment,
+    firebase: 'https://ember-experiments.firebaseio.com/'
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
